@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <p>Contact</p>
+    <div class="menu bar">
+        <nav class="menubar">
+            <a class="one" href="about.html">About</a>
+            <a class="two" href="index.html">Work</a>
+            <a class="three" href="contact.html">Contact</a>
+        </nav>
+        <a href="menus.html">
+            <div class="menus">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </a>
+    </div>
+    <div class="contactsheet">
+        <form id="form">
+            <div class="name">
+                <label for="name1">Name</label>
+                <br>
+                <input  id="name1" type="text">
+            </div>
+            <div class="email">
+                <label for="email1">Email</label>
+                <br>
+                <input id="email1" type="text">
+            </div>
+            <div class="phone">
+                <label for="phone1">Phone Number</label>
+                <br>
+                <input id="phone1" type="text">
+            </div>
+            <div class="message">
+                <label for="message1">Message</label>
+                <br>
+                <textarea id="message1"></textarea>
+            </div>
+            <button onclick="sumbitAction()">Submit</button>
+        </form>
+    </div>
+    <script>
+        function sumbitAction(){
+            var x = document.getElementById("name1").value;
+            console.log(x);
+            var y = document.getElementById("email1").value;
+            console.log(y);
+            var z = document.getElementById("phone1").value;
+            console.log(z);
+            var b = document.getElementById("message1").value;
+            console.log(b);
+        }
+    </script>
+</body>
+</html>

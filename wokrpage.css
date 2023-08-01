@@ -1,0 +1,113 @@
+@media (max-width: 900px) {
+    .image-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .image-container img {
+        margin: 10px 0;
+    }
+    
+    .image-container .text {
+        position: static;
+        display: block;
+        margin-top: 10px;
+    }
+}
+
+.image1{
+    width:400px;
+    height:370px;
+    clip: rect(0,400px,366.55px,0);     
+    object-fit: cover;
+    position: relative;
+    top: 0;
+    left: 0;
+    opacity: 1;  /* for demo purpose  */
+    display:inline-block;
+}
+
+.image1:hover {
+    opacity:25%;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: fit-content;
+    position: relative; /* Added */
+}
+
+.image-container img {
+    margin: 10px;
+}
+
+.container1{
+    position: relative;
+    text-align: center;
+    color: black;
+}
+.text1{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container1:hover .text1 {
+    display: block;
+}
+
+.container2{
+    position: relative;
+    text-align: center;
+    color: black;
+}
+.text2{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container2:hover .text2 {
+    display: block;
+}
+
+.container3{
+    position: relative;
+    text-align: center;
+    color: black;
+}
+.text3{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container3:hover .text3 {
+    display: block;
+}
+
+.container4{
+    position: relative;
+    text-align: center;
+    color: black;
+}
+.text4{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container4:hover .text4 {
+    display: block;
+}
