@@ -92,16 +92,15 @@ body{
     margin-bottom:0;
 }
 
-/* Style for the paragraph and the specific links inside descriptioncontain */
-.descriptioncontain p, 
-.descriptioncontain .bottom-links a {
-    font-family: Roboto, Cambria;
-    font-size: 25px;
-    font-weight: bold;
+p, a {
+    font-family: Roboto, Cambria; /* Same font for both */
+    font-size: 15px; /* Same font size for both */
+    font-weight: Bold;
     color: #333333;
     text-align: center;
-    text-decoration: none;
+    text-decoration: none; /* Optional: removes underline from links */
 }
+
 
 /* Specific style for the <a> links in descriptioncontain to center them */
 .descriptioncontain .bottom-links a {
