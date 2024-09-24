@@ -1,13 +1,15 @@
-.image-container2 {
+.image-container {
     display: flex; /* Flexbox layout */
     justify-content: center; /* Center the images horizontally */
     gap: 10px; /* Adds some space between the images */
 }
 
-.image-container2 img {
-    max-width: 50% !important ; /* Ensure the images do not overflow their container */
-    height: 50% !important ; /* Maintain the image's aspect ratio */
+.image-container img {
+    width: 300px; /* Set a fixed width for each image */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure the image fits within its container */
 }
+
 
 nav{
     text-align: center;
@@ -22,7 +24,7 @@ body{
 .descriptions a {
     font-family: Roboto, Cambria !important; /* Using !important to override other rules */
     color: #333333 !important;
-    font-size: 50px !important;
+    font-size: 25px !important;
     font-weight: Bold !important;
     text-align: center !important;
     text-decoration: none; /* Optional: remove underline */
@@ -32,7 +34,7 @@ body{
 .descriptions {
     font-family: Roboto, Cambria;
     color: #333333;
-    font-size: 50px;
+    font-size: 25px;
     font-weight: Bold !important;
     max-width: 800px;
     margin: 0 auto;
