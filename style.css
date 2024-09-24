@@ -1,3 +1,13 @@
+.image-container {
+    display: flex; /* Flexbox layout */
+    justify-content: center; /* Center the images horizontally */
+    gap: 10px; /* Adds some space between the images */
+}
+
+.image-container img {
+    max-width: 100%; /* Ensure the images do not overflow their container */
+    height: auto; /* Maintain the image's aspect ratio */
+}
 
 nav{
     text-align: center;
