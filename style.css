@@ -23,6 +23,9 @@ body{
     width: 600px;
     height: 550px; 
     overflow: hidden;
+    display: flex; /* enables flexbox */
+    gap: 10px; /* adds some space between the images */
+    justify-content: center; /* centers the images horizontally */
 }
 
 .crop-container img {
