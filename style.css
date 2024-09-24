@@ -29,16 +29,17 @@ body{
     margin-bottom:20px;
 }
 
-.image-container2 {
-    display: flex;          /* Use flexbox to align images side by side */
-    justify-content: center; /* Center the images horizontally */
-    gap: 20px;               /* Add some space between the images */
-    padding: 10px;           /* Add some padding inside the container */
+.image-container2 img {
+    width: 45% !important;   /* Force the width to be applied */
+    height: auto !important; /* Force the height to be maintained */
 }
 
+
 div.image-container2 img {
-    width: 50% !important;              /* Set the width of each image to 45% of the container */
-    height: 50% !important;            /* Maintain the aspect ratio of the images */
+    width: 45%;              /* Set the width of each image to 45% of the container */
+    height: auto;            /* Maintain the aspect ratio of the images */
+    border-radius: 10px;     /* Optional: Add rounded corners to the images */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow to the images */
 }
 
 .crop-container {
