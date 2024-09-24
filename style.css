@@ -22,7 +22,8 @@ body{
 .descriptions a {
     font-family: Roboto, Cambria !important; /* Using !important to override other rules */
     color: #333333 !important;
-    font-size: 15px !important;
+    font-size: 25px !important;
+    font-weight: Bold !important;
     text-align: center !important;
     text-decoration: none; /* Optional: remove underline */
 }
@@ -31,7 +32,8 @@ body{
 .descriptions {
     font-family: Roboto, Cambria;
     color: #333333;
-    font-size: 15px;
+    font-size: 25px;
+    font-weight: Bold !important;
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
