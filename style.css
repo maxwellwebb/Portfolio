@@ -20,13 +20,13 @@ body{
 }
 
 .descriptions a {
-    font-family: Roboto, Cambria; /* Ensure the links use the same font */
-    color: #333333;
-    font-size: 30px;
-    text-align: center;
-    margin-bottom: 20px;
-    text-decoration: none; /* Optional: remove underline for links */
+    font-family: Roboto, Cambria !important; /* Using !important to override other rules */
+    color: #333333 !important;
+    font-size: 15px !important;
+    text-align: center !important;
+    text-decoration: none; /* Optional: remove underline */
 }
+
 
 .descriptions {
     font-family: Roboto, Cambria;
