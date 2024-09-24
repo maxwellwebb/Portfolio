@@ -24,7 +24,6 @@ body{
     font-family: Roboto, Cambria !important; /* Using !important to override other rules */
     color: #333333 !important;
     font-size: 15px !important;
-    font-weight: Bold !important;
     text-align: center !important;
     text-decoration: none; /* Optional: remove underline */
 }
