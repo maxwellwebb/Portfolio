@@ -92,20 +92,23 @@ body{
     margin-bottom:0;
 }
 
+/* Style for the paragraph and the specific links inside descriptioncontain */
 .descriptioncontain p, 
-.descriptioncontain a {
+.descriptioncontain .bottom-links a {
     font-family: Roboto, Cambria;
     font-size: 25px;
     font-weight: bold;
     color: #333333;
-    text-align: center; /* Ensures text is center-aligned */
+    text-align: center;
     text-decoration: none;
 }
 
-.descriptioncontain a {
-    display: block; /* Makes the <a> behave like a block element so it can center-align */
-    margin: 0 auto; /* Ensures it aligns in the center within the container */
+/* Specific style for the <a> links in descriptioncontain to center them */
+.descriptioncontain .bottom-links a {
+    display: block;
+    margin: 0 auto;
 }
+
 
 
 html,body{
