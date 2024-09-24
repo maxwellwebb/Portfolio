@@ -9,6 +9,13 @@ body{
     font-family: Roboto;
 }
 
+.descriptions a {
+    font-family: Roboto, Cambria;
+    color: #333333; /* Same color as your paragraph text */
+    font-size: 15px;
+    text-decoration: none; /* Removes the underline from the links */
+}
+
 .descriptions{
     font-family: Roboto, Cambria;
     color: #333333;
