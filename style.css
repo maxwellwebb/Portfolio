@@ -1,15 +1,14 @@
-.image-container2 {
+.woodwork-container {
     display: flex; /* Flexbox layout */
     justify-content: center; /* Center the images horizontally */
     gap: 10px; /* Adds some space between the images */
 }
 
-.image-container2 img {
+.woodwork-container img {
     width: 300px; /* Set a fixed width for each image */
     height: auto; /* Maintain aspect ratio */
     object-fit: cover; /* Ensure the image fits within its container */
 }
-
 
 nav{
     text-align: center;
