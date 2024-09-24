@@ -38,7 +38,7 @@ body{
 
 div.image-container2 img {
     width: 100%;              /* Set the width of each image to 45% of the container */
-    height: auto;            /* Maintain the aspect ratio of the images */
+    height: 50%;            /* Maintain the aspect ratio of the images */
 }
 
 .crop-container {
