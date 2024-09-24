@@ -1,10 +1,10 @@
-.image-container {
+.image-container2 {
     display: flex; /* Flexbox layout */
     justify-content: center; /* Center the images horizontally */
     gap: 10px; /* Adds some space between the images */
 }
 
-.image-container img {
+.image-container2 img {
     max-width: 50%; /* Ensure the images do not overflow their container */
     height: 50%; /* Maintain the image's aspect ratio */
 }
