@@ -5,8 +5,8 @@
 }
 
 .woodwork-container img {
-    width: 600px; /* Set a fixed width for each image */
-    height: 550px; /* Maintain aspect ratio */
+    width: 500px; /* Set a fixed width for each image */
+    height: 450px; /* Maintain aspect ratio */
     object-fit: cover; /* Ensure the image fits within its container */
 }
 
@@ -37,7 +37,7 @@ body{
     font-weight: Bold !important;
     max-width: 800px;
     margin: 0 auto;
-    text-align: center;
+    text-align: center !important;
     margin-bottom: 20px;
 }
 
