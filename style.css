@@ -45,7 +45,7 @@ body{
     width: min(1200px, 95%);
     height: auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 15px;
     margin: 0 auto;
     overflow: visible;
@@ -53,18 +53,13 @@ body{
 
 .crop-container img {
     width: 100%;
+    min-width: 0;
     height: 500px;
     object-fit: cover;
 }
 
-@media (max-width: 720px) {
-    .crop-container {
-        grid-template-columns: 1fr;
-    }
-
-    .crop-container img {
-        height: auto;
-    }
+.crop-container.four-images {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
 .deepimage{
