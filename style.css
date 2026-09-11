@@ -274,7 +274,7 @@ button:hover{
     transform: translate(-50%, -50%);
 }
 
-.container7:hover ring-text {
+.container7:hover .text7 {
     display: block;
 }
 
