@@ -42,13 +42,14 @@ body{
 
 
 .crop-container {
-    width: min(1200px, 95%);
+    width: min(1200px, calc(100% - 32px));
     height: auto;
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: 1fr;
     gap: 15px;
     margin: 0 auto;
     overflow: visible;
+    box-sizing: border-box;
 }
 
 .crop-container img {
@@ -58,14 +59,16 @@ body{
     object-fit: cover;
 }
 
+.crop-container.three-images {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .crop-container.four-images {
     grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
-.deepimage{
-    display:flex;
-    justify-content: center;
-    align-items: center;
+.deepimage {
+    width: 100%;
 }
 
 .page-container {
