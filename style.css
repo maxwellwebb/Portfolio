@@ -260,13 +260,13 @@ button:hover{
 .container6:hover .text6 {
     display: block;
 }
-ring {
+.container7 {
     position: relative;
     text-align: center;
     color: black;
 }
 
-ring-text {
+.text7 {
     display: none;
     position: absolute;
     top: 50%;
@@ -274,7 +274,7 @@ ring-text {
     transform: translate(-50%, -50%);
 }
 
-ring:hover ring-text {
+.container7:hover ring-text {
     display: block;
 }
 
