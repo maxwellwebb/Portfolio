@@ -128,3 +128,38 @@
 .container5:hover .text5 {
     display: block;
 }
+
+.container6 {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+.text6 {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container6:hover .text6 {
+    display: block;
+}
+.container7 {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+.text7 {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container7:hover .text7 {
+    display: block;
+}
